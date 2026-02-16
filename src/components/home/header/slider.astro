@@ -1,16 +1,16 @@
 ---
 const technologies = [
-  "astro",
-  "react",
-  "typeScript",
-  "tailwindcss",
-  "nodejs",
-  "HTML5",
-  "CSS3",
-  "javaScript",
+  "cplusplus",
+  "python",
+  "java",
+  "haskell",
+  "prolog",
+  "vscode",
+  "redhat",
+  "zig",
   "git",
-  "supabase",
-  "mysql",
+  "linkedin",
+  "linux",
   "bash",
 ];
 ---
@@ -21,11 +21,9 @@ const technologies = [
       technologies.concat(technologies, technologies).map((tech) => (
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
-            src={`/svg/${tech}.svg`}
+            src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech}/${tech}-original.svg`}
             alt={tech}
-            class="h-7 w-auto object-contain  transition-transform group-hover:scale-110"
-            width="30"
-            height="30"
+            class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
             loading="lazy"
           />
           <span class="text-lg font-medium text-white">

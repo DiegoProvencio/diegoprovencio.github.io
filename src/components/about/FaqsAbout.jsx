@@ -37,20 +37,15 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState(null);
 
   const skills = {
+    "Mi formación": [
+      "Estudiante de Ingeniería Informática, con fuerte base en fundamentos de programación, estructuras de datos, arquitectura de computadores y teoría algorítmica. Mi aprendizaje combina formación académica con práctica intensiva autodidacta."
+    ],
     "¿Qué tecnologías uso?": [
       "Trabajo principalmente con C, C++ y Java, enfocándome en algoritmos, estructuras de datos y optimización. También tengo experiencia con React, Astro y Tailwind para desarrollo web. Actualmente estoy aprendiendo Rust para profundizar en programación de sistemas y rendimiento."
     ],
 
     "Programación Competitiva": [
       "Formo parte del equipo de programación competitiva, donde entreno resolución de problemas bajo presión. Trabajo análisis de complejidad, estructuras avanzadas y optimización en C++. Participo activamente en plataformas como Codeforces."
-    ],
-
-    "Mi formación": [
-      "Estudiante de Ingeniería Informática, con fuerte base en fundamentos de programación, estructuras de datos, arquitectura de computadores y teoría algorítmica. Mi aprendizaje combina formación académica con práctica intensiva autodidacta."
-    ],
-
-    "Experiencia como Formador (Programa CODI - Unión Europea)": [
-      "Durante la campaña de Navidad trabajé como formador en el programa europeo CODI, enseñando programación y pensamiento computacional a niños de 9 a 11 años. Diseñé actividades prácticas orientadas a lógica, resolución de problemas y fundamentos digitales."
     ],
 
     "Cómo trabajo en equipo": [

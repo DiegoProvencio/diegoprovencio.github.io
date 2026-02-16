@@ -1,6 +1,5 @@
 ---
 import HomeProjectCard from "./homeProyectCard.astro";
-import { proyectos } from "../../../data/projetsAboutData.js";
 ---
 
 <section class="py-10 relative z-10">
@@ -11,8 +10,40 @@ import { proyectos } from "../../../data/projetsAboutData.js";
   </h2>
 
   <div class="mt-8 grid gap-6 md:grid-cols-2 max-w-[930px] mx-auto px-4">
-    {proyectos.map((p) => <HomeProjectCard {...p} />)}
+    
+    <HomeProjectCard
+      titulo="Advent of Code"
+      descripcion="Resolución diaria de problemas algorítmicos enfocados en optimización y estructuras de datos."
+      imagen="/src/assets/img-projects/adventOfCode.jpg"
+      tecnologias={["C++", "Algoritmia", "Optimización"]}
+      codigo="https://github.com/DiegoProvencio/AdventOfCode_2025"
+    />
+
+    <HomeProjectCard
+      titulo="Programación Competitiva"
+      descripcion="Participación activa en Codeforces y concursos universitarios, centrado en eficiencia y análisis de complejidad."
+      imagen="/src/assets/img-projects/competitiveProgramming.png"
+      tecnologias={["C++", "STL", "Data Structures"]}
+      codigo="https://codeforces.com/profile/Fokuss"
+    />
+    
+    <HomeProjectCard
+      titulo="Formador CODI"
+      descripcion="Algo"
+      imagen="/src/assets/img-projects/codi.png"
+      tecnologias={["Scratch", "Logica", "Docencia"]}
+      codigo="https://www.linkedin.com/feed/update/urn:li:activity:7419687709369331712/?originTrackingId=w6%2BqRgSdfLxOgF5dwV9bKA%3D%3D"
+    />
+
+    <HomeProjectCard
+      titulo="Portfolio Personal"
+      descripcion="Desarrollado con Astro y Tailwind, optimizado para rendimiento y despliegue en GitHub Pages."
+      imagen="/src/assets/img-projects/portfolio.png"
+      tecnologias={["Astro", "Tailwind", "React"]}
+      codigo="https://github.com/DiegoProvencio/diegoprovencio.github.io"
+    />
   </div>
+
   <div class="mt-12 flex justify-center">
     <a
       href="/proyectos"

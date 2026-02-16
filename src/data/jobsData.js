@@ -1,34 +1,45 @@
 export const jobs = [
   {
-    title: "Frontend Developer - Neowyze",
-    time: ["12/2024 - 05/2025"],
+    title: "Formador en Competencias Digitales - Programa CODI (UE)",
+    time: ["Navidad 2025"],
     description:
-      "Mis tareas en Neowyze consisten en desarrollar webs responsivas basadas en diseños proporcionados en Figma, utilizando Astro, React, Tailwind y otras librerías frontend.",
+      "Formador para niños de 9 a 11 años en el programa europeo CODI.",
     list: [
-      "Para el flujo de trabajo, utilizo Jira como herramienta de gestión y Git/GitHub como sistema de control de versiones.",
-      "Trabajo bajo la metodología ágil Scrum, con sprints de 2 semanas y dos reuniones diarias (dailies) para planificar el proyecto y presentar avances",
+      "Enseñanza de identidad digital y ciberseguridad básica.",
+      "Introducción a la lógica de programación con Scratch.",
+      "Adaptación de conceptos técnicos a un enfoque didáctico."
     ],
   },
   {
-    title: "Frontend Developer - Vegna",
-    time: ["05/2024 - 02/2024"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con:",
-    list: ["JavaScript - TypeScript", "React - Next.js", "Tailwind", "Shadcn"],
-  },
-  {
-    title: "Frontend Developer - Igrowker",
-    time: ["07/2022 - 08/2022"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con",
-    list: ["React - React Router - Context api - CSS - Material UI"],
-  },
-  {
-    title: " Web Developer - NoCountry",
-    time: ["03/2022 - 06/2022"],
+    title: "Miembro del equipo de Programación Competitiva - UPV",
+    time: ["2024 - Actualidad"],
     description:
-      "Desarrollo de aplicaciones web responsivas MVP fullstack usando para su desarrollo tecnologías como",
+      "Entrenamiento en resolución de problemas algorítmicos y optimización.",
     list: [
-      "Frontend : React - React Router - Context api - tailwindcss",
-      "Backend : API REST con Express.js, MongoDB",
+      "Implementación en C++ centrada en eficiencia.",
+      "Participación en concursos tipo Codeforces.",
+      "Mejora continua en estructuras de datos y complejidad."
+    ],
+  },
+  {
+    title: "Monitor en colegio de verano - Animunis",
+    time: ["Verano 2024 - Verano 2025"],
+    description:
+      "Planificación y supervisión de actividades educativas y recreativas para grupos infantiles.",
+    list: [
+      "Diseño de actividades adaptadas al nivel del alumnado.",
+      "Coordinación en equipo y aplicación de protocolos de seguridad.",
+      "Desarrollo de habilidades de comunicación y liderazgo."
+    ],
+  },
+  {
+    title: "Colaborador familiar - Explotación Vitícola",
+    time: ["Campañas 2021 - 2023"],
+    description:
+      "Trabajo en campañas agrícolas en entorno exigente y de alta responsabilidad.",
+    list: [
+      "Trabajo físico intensivo y coordinación en equipo.",
+      "Responsabilidad y disciplina en entornos de alta carga laboral."
     ],
   },
 ];

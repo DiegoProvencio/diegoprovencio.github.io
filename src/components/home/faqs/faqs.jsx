@@ -37,22 +37,27 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState(null);
 
   const skills = {
+    "Mi formación": [
+      "Soy estudiante de Ingeniería Informática. Mi formación está centrada en estructuras de datos, algoritmos, programación de sistemas y fundamentos teóricos de la computación.",
+    ],
+    
     "¿Qué tecnologías uso?": [
-      "Actualmente trabajo con tecnologías como React, Next.js, Vue.js, Astro, tailwind, Boostrap y demas librerias y frameworks para el frontend y en el backend trabajo con Node.js, Express, MongoDB, Firebase, entre otras.",
+      "Trabajo principalmente con C, C++ y Java. Me enfoco en algoritmia, estructuras de datos y optimización de código. También utilizo Python para resolución de problemas y scripting.",
     ],
+
     "Mi Experiencia": [
-      "Tengo experiencia trabajando en startups y consultoras tecnológicas, desarrollando y maquetando sitios web a partir de diseños en Figma. Para ello, utilizo tecnologías frontend como Astro y React, junto con Tailwind CSS y otras librerías y frameworks para el estilizado y la optimización de interfaces.",
+      "Formo parte de un equipo de programación competitiva, participando en concursos como Codeforces y competiciones universitarias. He desarrollado proyectos académicos enfocados en eficiencia, análisis de complejidad y resolución de problemas algorítmicos.",
     ],
-    "Mi formacion": [
-      "Estudié una tecnicatura en automatización de grado universitaria en el ITU, lo que me brindó las bases en programación. Posteriormente, decidí enfocarme en el desarrollo web y de software. Ademas, realicé diversos cursos, diplomados y capacitaciones en grandes universidades Argentinas, como la UTN, tambien, complemento mi formación con el aprendizaje autodidacta, lo que me permite mantenerme actualizado con los avances tecnológicos en el desarrollo de software.",
-    ],
+
     "¿Cómo trabajo en equipo?": [
-      "Tengo experiencia trabajando en equipos multidisciplinarios, donde me he encargado del desarrollo frontend de aplicaciones web. Para ello, utilizo metodologías ágiles como Scrum y Kanban, además de herramientas de control de versiones como Git y GitHub para gestionar el flujo de trabajo. También cuento con experiencia en el uso de herramientas de gestión de proyectos como Trello y Jira, facilitando la organización y colaboración dentro del equipo.",
+      "Trabajo de forma colaborativa en entornos académicos y de programación competitiva, discutiendo soluciones, analizando complejidad y mejorando implementaciones de forma iterativa.",
     ],
-    "Metodolgias Agiles": [
-      "He trabajado con metodologías ágiles como Scrum y Kanban. En Scrum, participé en sprints de dos semanas, donde al finalizar cada sprint realizaba un pull request (PR) con mi trabajo, el cual pasaba por una fase de revisión y corrección antes de ser fusionado y enviado a producción. También he trabajado con Kanban, utilizando tableros para gestionar tareas y moverlas según su estado de progreso. Además, participé en reuniones diarias (dailies) para planificar y reportar avances del proyecto, asegurando una comunicación eficiente dentro del equipo.",
+
+    "Experiencia adicional": [
+      "Durante el programa europeo CODI trabajé como formador para niños de 9 a 11 años, enseñando fundamentos de programación y pensamiento lógico.",
     ],
   };
+
 
   const toggleItem = (item) => {
     setOpenItem(openItem === item ? null : item);
